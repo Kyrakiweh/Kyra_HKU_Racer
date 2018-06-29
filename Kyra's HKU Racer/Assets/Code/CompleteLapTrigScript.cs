@@ -21,6 +21,9 @@ public class CompleteLapTrigScript : MonoBehaviour {
     public GameObject WinScreen2;
     public float RestartDelay = 1f;
 
+    public GameObject WinText1;
+    public GameObject WinText2;
+
 
     private void Start()
     {
@@ -67,11 +70,13 @@ public class CompleteLapTrigScript : MonoBehaviour {
     void win1()
     {
         WinScreen1.SetActive(true);
+        WinText1.SetActive(true);
     }
 
     void win2()
     {
         WinScreen2.SetActive(true);
+        WinText2.SetActive(true);
     }
     void restart()
     {
