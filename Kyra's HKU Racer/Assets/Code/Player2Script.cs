@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player2Script : MonoBehaviour {
 
-    public float speed = 10.0f;
+    public float speed = 20.0f;
 
     // Use this for initialization
     void Start () {

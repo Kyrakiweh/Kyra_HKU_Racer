@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player1Script : MonoBehaviour {
 
-    public float speed = 10.0f;
+    public float speed = 20.0f;
 
     // Use this for initialization
      void Start()
@@ -15,8 +15,8 @@ public class Player1Script : MonoBehaviour {
     // Update is called once per frame
     void Update () {
 
-        float translation = Input.GetAxis("Vertical") * speed;
-        float strafe = Input.GetAxis("Horizontal") * speed;
+        float translation = Input.GetAxis("Vertical1") * speed;
+        float strafe = Input.GetAxis("Horizontal1") * speed;
         translation *= Time.deltaTime;
         strafe *= Time.deltaTime;
 
