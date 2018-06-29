@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scene Racer.unity
+    guid: 8cffbfff1d54dac41a9b406b4c8f3fe9
+  - enabled: 1
+    path: Assets/Start Menu.unity
+    guid: 20b560054023f8345822cc5f7e4be61f
