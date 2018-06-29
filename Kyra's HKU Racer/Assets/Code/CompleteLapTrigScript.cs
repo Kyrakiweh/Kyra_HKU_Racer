@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CompleteLapTrigScript : MonoBehaviour {
 
@@ -14,7 +15,12 @@ public class CompleteLapTrigScript : MonoBehaviour {
     public static int lapNr2;
     public GameObject LapNumberDisplay2;
 
-   
+
+
+    public GameObject WinScreen1;
+    public GameObject WinScreen2;
+    public float RestartDelay = 1f;
+
 
     private void Start()
     {
@@ -32,9 +38,11 @@ public class CompleteLapTrigScript : MonoBehaviour {
             lapNr += 1;
             LapNumberDisplay.GetComponent<Text>().text = "" + lapNr;
 
-            if (lapNr >= 2)
+            if (lapNr >= 3)
             {
-
+                win1();
+                Invoke("restart", RestartDelay);
+                
             }
             
          }
@@ -45,10 +53,28 @@ public class CompleteLapTrigScript : MonoBehaviour {
             lapNr2 += 1;
             Debug.Log("speler2 lap");
             LapNumberDisplay2.GetComponent<Text>().text = "" + lapNr2;
+
+            if (lapNr2 >= 3)
+            {
+               win2();
+                Invoke("restart", RestartDelay);
+            }
          }
 
 
+    }
 
-        
+    void win1()
+    {
+        WinScreen1.SetActive(true);
+    }
+
+    void win2()
+    {
+        WinScreen2.SetActive(true);
+    }
+    void restart()
+    {
+        SceneManager.LoadScene("Scene racer");
     }
 }
