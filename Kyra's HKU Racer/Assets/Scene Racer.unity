@@ -327,7 +327,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a0ed2fd39932bce469abd675f82e77a8, type: 3}
       propertyPath: m_Name
-      value: 'korb3 '
+      value: korb3(2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a0ed2fd39932bce469abd675f82e77a8, type: 3}
@@ -410,6 +410,10 @@ Prefab:
     - target: {fileID: 100006, guid: 9e0dca041dc01464eb1e3b49aae886af, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 9e0dca041dc01464eb1e3b49aae886af, type: 3}
+      propertyPath: m_Name
+      value: NielsVriezenVliegendeAuto 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9e0dca041dc01464eb1e3b49aae886af, type: 3}
@@ -1257,7 +1261,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100026, guid: a5cc5d396011813459a24ce6dca995d8, type: 3}
       propertyPath: m_Name
-      value: SpaceShipModel2 (1)
+      value: SpaceShipModel2 (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a5cc5d396011813459a24ce6dca995d8, type: 3}
@@ -1378,7 +1382,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 862884379}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33b25b98312f90b4c8ab0cc360520bad, type: 3}
+  m_Script: {fileID: 11500000, guid: 60795c219148c7d4ba0aacb343c17bb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &862884381
@@ -3708,6 +3712,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 2f49f36c690189c4b8d163205dd4c505, type: 2}
+    - target: {fileID: 100084, guid: 725d2d1de4b05584891eee51550033f5, type: 3}
+      propertyPath: m_Name
+      value: TeapotZoe2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 725d2d1de4b05584891eee51550033f5, type: 3}
   m_IsPrefabParent: 0
@@ -3883,6 +3891,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 8872ccf874eeb544da5c7a9907c4c989, type: 3}
+      propertyPath: m_Name
+      value: BouwmanNuriya_3Dmodelling-EindopdrachtVliegmachine_v2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8872ccf874eeb544da5c7a9907c4c989, type: 3}
   m_IsPrefabParent: 0
@@ -3956,6 +3968,10 @@ Prefab:
     - target: {fileID: 100000, guid: dd300f476b029944a887f9ac958f56c5, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dd300f476b029944a887f9ac958f56c5, type: 3}
+      propertyPath: m_Name
+      value: CanUrVliegMachine(2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd300f476b029944a887f9ac958f56c5, type: 3}

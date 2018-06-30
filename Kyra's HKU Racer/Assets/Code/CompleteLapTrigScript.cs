@@ -80,6 +80,6 @@ public class CompleteLapTrigScript : MonoBehaviour {
     }
     void restart()
     {
-        SceneManager.LoadScene("Scene racer");
+        SceneManager.LoadScene("Start Menu");
     }
 }
